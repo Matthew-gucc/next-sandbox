@@ -31,6 +31,10 @@ export default function HeroBanner() {
         <div id="banner-text" className="absolute h-full w-full flex flex-col justify-center items-center top-0 left-0">
           <StyledH3>{"Don't settle for the status quo..."}</StyledH3>
           <StyledH1>BE EXCELLENT</StyledH1>
+          <div id="button-tray" className="flex flex-row">
+            <button className="bg-black text-white w-44 h-10  mx-5 my-5 shadow-sm rounded-md">Company</button>
+            <button className="bg-white text-black w-44 h-10  mx-5 my-5 shadow-sm rounded-md">Expertise</button>
+          </div>
         </div>
       </section>
 
